@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/vim-task"]
 	path = pack/plugins/start/vim-task
 	url = https://github.com/samsonw/vim-task.git
+[submodule "pack/plugins/start/vimwiki"]
+	path = pack/plugins/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git

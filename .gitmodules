@@ -25,3 +25,9 @@
 [submodule "pack/plugins/start/YouCompleteMe"]
 	path = pack/plugins/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "notes"]
+	path = notes
+	url = https://github.com/macedaco/notes.git
+[submodule "pack/plugins/start/vim-task"]
+	path = pack/plugins/start/vim-task
+	url = https://github.com/samsonw/vim-task.git

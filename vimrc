@@ -5,6 +5,7 @@ set nowrap
 set statusline=%{FugitiveStatusline()}
 set nocompatible
 set hidden
+set encoding=utf-8
 set background=dark
 
 syntax on
@@ -20,6 +21,8 @@ autocmd FileType yaml setlocal ts=4 sts=4 sw=4 expandtab indentkeys-=0# indentke
 imap jj <Esc>
 
 let g:vimwiki_list = [{'path': '~/.vim/notes', 'syntax': 'markdown', 'ext': '.md' }]
+
+#let g:CtrlSpaceDefaultMappingKey = "<C-space>"
 
 if executable("ag")
 	let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'

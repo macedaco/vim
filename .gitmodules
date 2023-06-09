@@ -1,12 +1,16 @@
-[submodule "pack/plugins/opt/nerdtree"]
-	path = pack/plugins/opt/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule "pack/plugins/start/ale"]
-	path = pack/plugins/start/ale
-	url = https://github.com/w0rp/ale.git
 [submodule "pack/plugins/start/vim-airline"]
 	path = pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "notes"]
+	path = notes
+	url = https://github.com/macedaco/notes.git
+[submodule "notes/"]
+	url = git@github.com:alex.maceda@gmail.com/macedaco/notes
+[submodule "https://github.com/altercation/vim-colors-solarized.git"]
+	url = pack/plugins/start/vim-colors-solarized
+[submodule "pack/plugins/start/vim-colors-solarized"]
+	path = pack/plugins/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "pack/plugins/start/vim-ctrlspace"]
 	path = pack/plugins/start/vim-ctrlspace
 	url = https://github.com/vim-ctrlspace/vim-ctrlspace.git
@@ -15,28 +19,7 @@
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "pack/plugins/start/vimagit"]
 	path = pack/plugins/start/vimagit
-	url = https://github.com/jreybert/vimagit
-[submodule "pack/plugins/start/vim-colors-solarized"]
-	path = pack/plugins/start/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "pack/plugins/start/vim-docker"]
-	path = pack/plugins/start/vim-docker
-	url = https://github.com/ain/vim-docker.git
-[submodule "pack/plugins/start/YouCompleteMe"]
-	path = pack/plugins/start/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "notes"]
-	path = notes
-	url = https://github.com/macedaco/notes.git
-[submodule "pack/plugins/start/vim-task"]
-	path = pack/plugins/start/vim-task
-	url = https://github.com/samsonw/vim-task.git
+	url = https://github.com/jreybert/vimagit.git
 [submodule "pack/plugins/start/vimwiki"]
 	path = pack/plugins/start/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
-[submodule "pack/plugins/start/vim-gutentags"]
-	path = pack/plugins/start/vim-gutentags
-	url = https://github.com/ludovicchabant/vim-gutentags.git
-[submodule "pack/plugins/start/vim-node"]
-	path = pack/plugins/start/vim-node
-	url = https://github.com/vim-IDE/vim-node.git
